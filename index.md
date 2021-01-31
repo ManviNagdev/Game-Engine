@@ -1,10 +1,16 @@
-## Welcome to GitHub Pages
+## Game Engine Development in C++
 
-You can use the [editor on GitHub](https://github.com/ManviNagdev/Game-Engine/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+In this project, I built a game engine in C++ from scratch. It allows multiple players to play the game synchronously and works well for 2D platformers. It follows object-oriented design and makes extensive use of inheritance, encapsulation, abstraction, and polymorphism. Other key concepts that were used are from client-server communication, logical time, multithreading, physics, and socket programmning.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Libraries Used
+1. SFML (Simple and Fast Multimedia Library): For providing simple application programming interface to various multimedia components. [Download](https://www.sfml-dev.org/download.php)
+2. ZeroMQ: For communicating between client and server through message passing. [Download](https://github.com/zeromq/cppzmq)
+3. MessagePack: It is an efficient binary serialization format which lets one exchange data among multiple languages like JSON. [Download](https://github.com/msgpack/msgpack-c/tree/cpp_master)
 
-### Markdown
+### Demo
+[![Video](http://i3.ytimg.com/vi/kHGyrkUsC4k/maxresdefault.jpg)](https://www.youtube.com/watch?v=kHGyrkUsC4k)
+
+### Design and Implementation Details
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
